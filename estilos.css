@@ -45,7 +45,7 @@ header {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     font-family: sans-serif;
     color: rgb(148, 23, 207);
@@ -68,7 +68,7 @@ h1 {
 }
 
 .nav li {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 60px;
     background-color: #28e460c5;
     border: #0db33e solid 2px;
@@ -112,7 +112,7 @@ main h3 {
 
 /*tabla horarios*/
 table {
-    margin-left: 35%;
+    margin-left: 33%;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
@@ -216,10 +216,10 @@ label {
     border-radius: 10px;
 }
 .imagen1{
-    margin-left: 23%;
+    margin-left: 13%;
 }
 .imagen2{
-   margin-left: 35%;
+   margin-left: 33%;
 }
 
 /*footer*/
