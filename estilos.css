@@ -1,0 +1,242 @@
+body {
+    background-image: url(imag/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+
+header {
+    background-color: rgba(128, 255, 0, 0.322);
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    font-size: 30px;
+}
+
+.logo {
+    padding-left: 30px;
+    padding-top: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.titulo h1 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 80px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(226, 119, 181);
+
+}
+
+.contacto {
+    grid-row: 1/3;
+    grid-column: 2/6;
+    margin-left: 35%;
+
+
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(148, 23, 207);
+}
+
+
+/* menu navegación*/
+.menu {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.nav li {
+    font-size: 20px;
+    padding: 10px 80px;
+    background-color: #28e460c5;
+    border: #0db33e solid 2px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    padding-left: 2%;
+    text-align: justify;
+    padding-right: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+main h2 {
+    color: rgb(46, 87, 223);
+}
+
+main h3 {
+    color: rgb(9, 184, 126);
+}
+
+
+.aside {
+    grid-column: 2/6;
+    grid-row: 3/5;
+    padding-top: 30px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 25px;
+}
+
+
+/*tabla horarios*/
+table {
+    margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 10px rgb(76, 0, 255)
+}
+
+table tr td {
+    border: solid rgb(76, 0, 255);
+}
+
+.dias {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.horarios {
+    font-size: 20px;
+    
+}
+
+.lunes {
+    color: rgb(78, 8, 145);
+}
+
+.martes {
+    color: rgb(13, 150, 20);
+}
+
+.miercoles {
+    color: rgb(241, 104, 230);
+}
+
+.jueves {
+    color: rgb(12, 134, 134);
+}
+
+.viernes {
+    color: blue;
+}
+
+/*formulario*/
+
+.formDeContacto {
+    width: 800px;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left:  45%;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #9be3f59d;
+    padding-left: 30px;
+    border: solid greenyellow;
+    text-align: center;
+}
+input {
+    background-color: #f3faf7;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0cbd56;
+    margin-top: 2px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0cbd56;
+    margin-top: 3px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+    font-size: 20px;
+}
+
+
+.botonEnviar {
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: #54cfc5;
+    border-color: #02362f;
+    border-radius: 10px;
+}
+.imagen1{
+    margin-left: 23%;
+}
+.imagen2{
+   margin-left: 35%;
+}
+
+/*footer*/
+.pie {
+    background-color: rgba(5, 128, 60, 0.603);
+    width: 100%;
+    font-size: 30px;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
